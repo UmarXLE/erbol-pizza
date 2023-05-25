@@ -1,0 +1,12 @@
+
+
+.container {
+    margin-left: 10%;
+}
+
+
+@media (max-width:767px) {
+    .container {
+        margin-left: 0;
+    }
+}

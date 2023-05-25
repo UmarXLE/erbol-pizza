@@ -1,0 +1,61 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: 1s;
+    height: 100vh;
+}
+
+.wrapper {
+    right: 0;
+    z-index: 1100;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+
+.icon img {
+    max-width: 100%;
+    height: 35px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.menu  a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1.5%;
+    font-weight: 700;;
+}
+
+.close {
+    position: absolute;
+    background: url('../../../public/assets/close.png')no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    right: 15px;
+    top: 15px;
+    z-index: 111;
+}
+
+

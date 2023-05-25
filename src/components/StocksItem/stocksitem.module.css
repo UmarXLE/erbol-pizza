@@ -1,0 +1,51 @@
+.item {
+    width: 100%;
+    display: flex;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    box-shadow: 0px 30px 45px rgba(43, 40, 40, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: 0.3s ease all;
+    
+}
+
+.item:hover {
+    transform: translateX(-5px) translateY(-5px);
+}
+
+.icon {
+    width: 35%;
+    margin-right: 5%;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.info {
+    width: 60%;
+    padding: 30px 0;
+}
+
+.title {
+    color: white;
+}
+
+.text {
+    color: #CFCFCF;
+}
+
+@media (max-width:767px) {
+    .item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info {
+        width: 80%;
+    }
+    .icon {
+        width: 100%;
+        margin-right: 0;
+    }
+}

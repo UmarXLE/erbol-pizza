@@ -1,0 +1,31 @@
+.title {
+    margin-left: 5.5%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.wrapper {
+    margin: 10px 0;
+    position: relative;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    margin: 50px 0;
+}
+
+
+@media (max-width:576px) {
+    .title {
+        font-size: 25px;
+    }
+}
+

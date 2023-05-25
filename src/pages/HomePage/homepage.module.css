@@ -1,0 +1,5 @@
+.line {
+    width: 100%;
+    opacity: 50%;
+    border: 2px dashed rgba(207, 207, 207, 1);
+}

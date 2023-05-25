@@ -1,0 +1,16 @@
+.item {
+    width: 100%;
+    color: #CFCFCF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+@media (max-width:576px) {
+    .item {
+        width: 90%;
+    }
+}

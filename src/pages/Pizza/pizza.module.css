@@ -1,0 +1,41 @@
+.title {
+    width: 80%;font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    margin: 50px 0;
+}
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.content {
+    margin: 50px 0;
+}
+
+
+@media (max-width:992px) {
+    .title {
+        font-size: 27px;
+    }
+}
+
+
+@media (max-width:576px) {
+    .title {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,24 @@
+.contentWrapper {
+    margin: 50px auto;
+}
+
+.title {
+    width: 80%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.container {
+    margin-left: 10%;
+}
+
+
+@media (max-width:992px) {
+    .container {
+        margin-left: 0;
+    }
+}
